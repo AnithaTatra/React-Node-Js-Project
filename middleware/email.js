@@ -6,7 +6,7 @@ const sgMail=require("@sendgrid/mail");
 
 
 
-sgMail.setApiKey("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");
+sgMail.setApiKey("*********************************");
 //sgMail.setApiKey("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");
 // const transporter = nodemailer.createTransport({
 //     service: "gmail",
@@ -29,9 +29,9 @@ async function mailSending(email){
         const mailData= {
             to:email,
             from:email,
-            subject:"Sekhar",
-            text:"Sekhar M",
-            html:"SekharAnithChinniBujji"
+            subject:"test",
+            text:"Hi",
+            html:"Hi"
             // to:compose.to,
             // from:compose.from,
             // subject:compose.subject,
